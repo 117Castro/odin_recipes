@@ -1,0 +1,140 @@
+/* Adicion de css a la pagina web de recetas de odin */
+
+/* Usamo el id tema para espesificar que la linea que lo contenga
+sera la modificada, tomando en cuenta que cascada lo tomara como el de 
+gerarquia mas alta */
+#tema{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.receta{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: tan;
+}
+.limon{
+    color: rgb(8, 53, 8);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+}
+
+.salsa{
+    color: red;
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Ahora probemos con los subtitulos */
+/* Modificamos el tipo de letra que quiero y el grosor pq no quiero que sea tan vistoso
+prefiero lo minimalista y simple */
+
+.titu{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    
+}
+
+/* probemos con la modificasion de imagenes usando el seletor de tipo
+img */
+/* usando cascada de tipo afectara de la misma manera a todos los img, 
+pero si quiero que las imagenes se vean diferentes solo debo agregar una
+clase o una ID para que sea diferente al modificarla */
+img{
+    height: auto;
+    width: 310px   ;
+}
+
+/* Probemos con la clase text para modificar los textos de las paginas,
+las font-family sera diferente para cada pagina pero su tamaño va a ser diferente */
+
+/* ------- esta seria una manera de hacerlo, recuerda el orden gerarquico---- */
+
+
+
+/* otra forma de hacerlo seria de esta manera (no me funciona de esta manera
+debo investigarlo)
+
+.text.primero{
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+}
+
+.text.tercero{
+    color: black;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace ;
+font-weight: 400;
+}*/
+
+
+.text{
+    color: black;
+    font-size: 18px;
+
+}
+
+
+.primero{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+}
+
+.segundo{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+
+}
+
+.tercero{
+font-family: 'Courier New', Courier, monospace ;
+font-weight: 400;
+}
+
+
+/* Ahora probemos con las clases tit */
+
+/* debo investigar porque no me funciona el poner clase encadenado por hijo de clase */
+.azu{
+    color: darkslategray;
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.red{
+    color: rgb(119, 62, 9);
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* los sub de cada landing */
+
+.sub1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+}
+
+.sub2{
+    font-family: 'Courier New', Courier, monospace ;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
